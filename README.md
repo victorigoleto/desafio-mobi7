@@ -24,14 +24,14 @@ Para usar a API, clone o projeto:
 ```
 Em qualquer lugar da sua máquina
 ```
-<img src="https://imgur.com/hLymkll" alt="Clone">
+<img src="https://i.imgur.com/hLymkll.png" alt="Clone">
 
 
 ```
 Agora abra sua IDE de escolha e importe o projeto. As dependencias serão baixadas. Ao termino, abra o terminal e rode o seguinte comando para subir o container: docker compose up -d
 ```
 
-<img src="https://imgur.com/kAj1H3R" alt="docker">
+<img src="https://i.imgur.com/kAj1H3R.png" alt="docker">
 
 ```
 Foi usado o Rancher Desktop para administrar uma infraestrutura de docker. Caso tenha o Docker original instalado, nao há necessidade de utilizar o mesmo
