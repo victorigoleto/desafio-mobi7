@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "fbcfbd55-7237-4e3f-a24c-43f50d7ebf05",
+		"name": "api_mobi7",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13255981"
+	},
+	"item": [
+		{
+			"name": "Criar uma nova posição",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"placa\": \"teste\",\r\n    \"data\": \"2018-12-12\",\r\n    \"velocidade\": \"50\",\r\n    \"latitude\": \"-500000\",\r\n    \"longitude\": \"-250000\",\r\n    \"ignicao\": \"true\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/positions/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"positions",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar um novo ponto de interesse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"teste\",\r\n    \"raio\": \"30\",\r\n    \"latitude\": \"-500000\",\r\n    \"longitude\": \"-250000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/poi/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"poi",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retornar todas as posicoes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/positions/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"positions",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retornar todos os pontos de interesse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/poi/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"poi",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
