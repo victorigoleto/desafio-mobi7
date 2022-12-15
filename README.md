@@ -41,10 +41,11 @@ Foi usado o Rancher Desktop para administrar uma infraestrutura de docker. Caso 
 ```
 Feito isso, rode a aplicação main DesafioApplication, que será gerado automaticamente as tabelas do banco de dados (POI e Posicoes)
 ```
-<img src="https://i.imgur.com/cA1LDBm.png" alt="Rodando a aplicação">
+<img src="https://i.imgur.com/oZArpxR.png" alt="Rodando a aplicação">
 
 ```
-Agora abra o POSTMAN ou Insomnia e faça as requisiçoes.
+Agora abra o POSTMAN e importe o arquivo api_mobi7.postman_collection.json que esta dentro de collecttion e faça as requisiçoes pré estabelecidas.
 ```
+<img src="https://i.imgur.com/sZSP1LJ.png" alt="Postan">
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#desafio-mobi7 - Mobi7 / Localiza – Recrutamento e Seleção de Desenvolvedores)<br>
