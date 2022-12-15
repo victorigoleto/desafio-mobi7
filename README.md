@@ -47,5 +47,3 @@ Feito isso, rode a aplicação main DesafioApplication, que será gerado automat
 Agora abra o POSTMAN e importe o arquivo api_mobi7.postman_collection.json que esta dentro de collecttion e faça as requisiçoes pré estabelecidas.
 ```
 <img src="https://i.imgur.com/sZSP1LJ.png" alt="Postan">
-
-[⬆ Voltar ao topo](#desafio-mobi7 - Mobi7 / Localiza – Recrutamento e Seleção de Desenvolvedores)<br>
